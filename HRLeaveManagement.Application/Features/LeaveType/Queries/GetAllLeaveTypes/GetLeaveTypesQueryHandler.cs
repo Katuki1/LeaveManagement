@@ -32,7 +32,7 @@ namespace HRLeaveManagement.Application.Features.LeaveType.Queries.GetAllLeaveTy
             // Validate it exists
             if (leaveTypes == null)
             {
-                throw new NotFoundException(nameof(LeaveType), request.Id);
+                throw new NotFoundException(nameof(LeaveType), request);
             }
 
             //Convert data objects to DTO objecs

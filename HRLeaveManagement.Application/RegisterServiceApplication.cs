@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace HRLeaveManagement.Application
 {
-    public static class RegisterService
+    public static class RegisterServiceApplication
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {

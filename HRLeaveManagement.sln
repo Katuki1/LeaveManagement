@@ -15,9 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{38844BAE-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C14A3A50-662D-4D0E-B71A-F544AC8BB108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Domain", "HRLeaveManagement.Domain\HRLeaveManagement.Domain.csproj", "{38DF4ACB-F17D-4B5F-8248-39AF94FF43FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRLeaveManagement.Domain", "HRLeaveManagement.Domain\HRLeaveManagement.Domain.csproj", "{38DF4ACB-F17D-4B5F-8248-39AF94FF43FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Application", "HRLeaveManagement.Application\HRLeaveManagement.Application.csproj", "{8AD46C61-DFBD-48CB-982F-C8D7AE70B105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRLeaveManagement.Application", "HRLeaveManagement.Application\HRLeaveManagement.Application.csproj", "{8AD46C61-DFBD-48CB-982F-C8D7AE70B105}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRLeaveManagement.Persistence", "HRLeaveManagement.Persistence\HRLeaveManagement.Persistence.csproj", "{B5ED83A7-0594-46A2-B979-576321849A05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Infastructure", "HRLeaveManagement.Infastructure\HRLeaveManagement.Infastructure.csproj", "{332F2249-300D-4C0C-9966-2E54D56C9F35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{8AD46C61-DFBD-48CB-982F-C8D7AE70B105}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AD46C61-DFBD-48CB-982F-C8D7AE70B105}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AD46C61-DFBD-48CB-982F-C8D7AE70B105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5ED83A7-0594-46A2-B979-576321849A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5ED83A7-0594-46A2-B979-576321849A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5ED83A7-0594-46A2-B979-576321849A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5ED83A7-0594-46A2-B979-576321849A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{332F2249-300D-4C0C-9966-2E54D56C9F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332F2249-300D-4C0C-9966-2E54D56C9F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332F2249-300D-4C0C-9966-2E54D56C9F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332F2249-300D-4C0C-9966-2E54D56C9F35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +56,8 @@ Global
 		{C14A3A50-662D-4D0E-B71A-F544AC8BB108} = {79D29666-2EF0-4CE6-8329-ADF2344AAD68}
 		{38DF4ACB-F17D-4B5F-8248-39AF94FF43FA} = {38844BAE-112A-4075-A02E-93B49FCCA416}
 		{8AD46C61-DFBD-48CB-982F-C8D7AE70B105} = {38844BAE-112A-4075-A02E-93B49FCCA416}
+		{B5ED83A7-0594-46A2-B979-576321849A05} = {C14A3A50-662D-4D0E-B71A-F544AC8BB108}
+		{332F2249-300D-4C0C-9966-2E54D56C9F35} = {C14A3A50-662D-4D0E-B71A-F544AC8BB108}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F356AC6-8710-4061-963A-472D22AF0712}
